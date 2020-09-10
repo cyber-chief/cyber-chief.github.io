@@ -14,12 +14,12 @@ There are a number of different topics that will be added to as the site (hopefu
  - [Tools][1]
  - [Offensive Techniques][2]
  - [Defensive Methods][3]
- - [Learning][4]
 
 
 
 
-[1]: https://blog.firelocked.com/tools
-[2]: (https://blog.firelocked.com/offense)
-[3]: (https://blog.firelocked.com/defense)
-[4]: (https://blog.firelocked.com/learning)
+
+[1]: /tools/
+[2]: /offense/
+[3]: /defense/
+
