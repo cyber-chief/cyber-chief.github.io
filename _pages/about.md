@@ -13,6 +13,7 @@ There are a number of different topics that will be added to as the site (hopefu
  - [Tools][1]
  - [Offensive Techniques][2]
  - [Defensive Methods][3]
+ - [Capture the Flags][4]
 
 
 
@@ -21,4 +22,4 @@ There are a number of different topics that will be added to as the site (hopefu
 [1]: /tools)
 [2]: /offense
 [3]: /defense
- 
+[4]: /ctfs
