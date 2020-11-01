@@ -19,7 +19,7 @@ There are a number of different topics that will be added to as the site (hopefu
 
 
 
-[1]: /tools)
+[1]: /tools
 [2]: /offense
 [3]: /defense
 [4]: /ctfs
