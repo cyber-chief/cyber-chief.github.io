@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Home
+permalink: /
 ---
 
 Firelocked Blog is designed as a place for me to talk about my learning and hopefully provide some useful content to those who are either new to the security field or haven't been exposed to the different topics I'll discuss. 
