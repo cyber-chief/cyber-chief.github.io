@@ -1,37 +1,40 @@
-# Site settings
-title: Firelocked Cyber Security Blog
-description: Securing the World!
-baseurl: "/" # the subpath of your site, e.g. /blog/
-# url: "http://yourdomain.com" # the base hostname & protocol for your site you most probably don't need to set it
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
 
-# Build settings
-markdown: kramdown
-paginate: 5 # pagination based on number of posts
-paginate_path: "page/:num"
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
 highlighter: rouge
-gems: [jekyll-paginate, jekyll-coffeescript]
+markdown: kramdown
+disqus: dbyll
+google_analytics: 
+title: Firelocked Blog
 
-# comments
-disqus: # add disqus shortname here
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: Firelocked Blog
 
-# author info
-# add your appropriate info here
-author: # Nathaniel Cox
-bio:    # Security Engineer
-email: nathaniel@firelocked.com
-email_md5: # md5 hash of your email
-twitter_username:
-github_username: cyber-chief
+description: Securing the World!
+author:
+  name: Nathaniel Cox
+  email: nathaniel@firelocked.com
+  github: cyber-chief
+  twitter: 
+  pinterest: 
+  linkedin: 
+  bio: Your stylish, minimalist theme!
+  email_md5: 
 
-# Theming options
-# These settings are mandatory.
-theme:              'blue-pink'
-# drawer theming
-drawer:
-  text_color:       'grey-600'
-  header_color:     'blue-500'
-  navigation_color: 'grey-200'
-# footer theming
-footer:
-  text_color: 'blue-grey-200'
-  color: 'blue-grey-600'
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+
+# set it as url of an image
+# sidebar_background_image: https://www.dropbox.com/s/g9h23zrycedxtk5/sky.png?raw=1
+
+BASE_PATH:
+
+plugins:
+  - jekyll-paginate
